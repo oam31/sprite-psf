@@ -1,0 +1,7 @@
+Estimated spectral radius: 4848971312.158310
+nsigma: 4.000000
+Type of transform: 23
+Type of filter: 1
+Noise estimation method: 0
+Model denoising method: 1
+Number of iterations for convergence: 50

@@ -1,0 +1,35 @@
+
+
+PARAMETERS: 
+
+File Cube in = cube_test.fits
+File Ima Out = solution.fits
+Outputs directory = t2/
+Sparsity constraint ON
+Type of sp_transform for sparse constraint = bspline wavelet transform: a trous algorithm
+Minimizer: Generalized Forward-Backward
+Sinc interpolation used to compute the first guess
+Positivity constraint enable
+Type of sp_transform for first guess denoising = undecimated (bi-) orthogonal transform (three bands per scale)
+Thresholding method = 1
+Number of scales = floor(log(Nx)/log(2))-1
+Max_Iter = 50
+Number of reweighted passes = 1
+Zooming factor = 2
+N_Sigma = 4
+Noise_est_meth: 0
+Model denoising method: 1
+Number of iterates used for convergence assessment = 25
+Associated tolerance parameter: 0.005
+Residual Cube file name: resi.fits
+Photometric flux estimation enabled.
+The noise level is not assumed to be the same in the low resolution images.
+Diagnostic files will be saved in the outputs directory
+Subpixel shifts estimation... 
+Flux estimation... 
+Computing a first guess... 
+Spectral radius estimation...
+Minimizer...
+Minimization 0
+Minimization 1
+Outputs saving...

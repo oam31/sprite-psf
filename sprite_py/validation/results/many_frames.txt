@@ -1,0 +1,18 @@
+Nombre d'images, 30 dB et 20 dB, flux egaux, 2 realisations, -s 4 -N (temps indicatifs, machine chargee)
+dico     SNR    n  rel_err    fwhm  temps (s)
+starlet   20    4    0.208   0.077        2.4
+starlet   20   16    0.108   0.002        3.6
+starlet   20   50    0.080   0.001        7.3
+starlet   20  100    0.069   0.001       13.2
+starlet   30    4    0.151   0.052        2.3
+starlet   30   16    0.055   0.001        3.4
+starlet   30   50    0.036   0.001        7.2
+starlet   30  100    0.028   0.001       13.1
+u79       20    4    0.194   0.081        6.5
+u79       20   16    0.100   0.001        6.7
+u79       20   50    0.074   0.001       10.1
+u79       20  100    0.065   0.001       16.0
+u79       30    4    0.147   0.062        5.6
+u79       30   16    0.051   0.001        6.1
+u79       30   50    0.034   0.001        9.7
+u79       30  100    0.027   0.001       15.3

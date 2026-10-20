@@ -1,0 +1,14 @@
+100 poses, ±2,5 pixels, 30 dB, R défocalisé de 0,3 onde (réalisation 500)
+Erreur RMS des décalages (pixels détecteur) ; erreur relative des PSF R / G / B
+
+Part de l'erreur initiale (luminance) expliquée par la position dans le motif 2x2 : 75 % (x), 83 % (y)
+
+luminance seule                                   0,125
+réajustement sur les PSF vraies                   0,002   (la méthode de réajustement est exacte)
+réajustement sur des Moffat ajustés aux PSF vraies 0,083  (un modèle lisse ne suffit pas)
+réajustement à kappa 2 ou 1 (2 à 4 tours)          0,080 à 0,082 ; PSF 0,084 / 0,098 à 0,105 / 0,231 à 0,233
+correction du biais calculé sur les PSF vraies    0,028
+correction du biais calculé sur les PSF reconstruites :
+  itération 1  0,093    itération 2  0,080    itération 3  0,073 (PSF 0,072 / 0,086 / 0,189)
+  itération 4  0,077    itération 5  0,079    itération 6  0,084 (dérive)
+  + réajustement final 0,086 (PSF 0,098 / 0,096 / 0,224)

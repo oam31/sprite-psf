@@ -1,0 +1,34 @@
+cube_test.fits, -s 4 -N
+  starlet  recons (C++)  fond/pic 8.2e-03  somme 0.3615  chi2/N 1.420  iter 50  2.0s
+  starlet  adjoint       fond/pic 2.4e-05  somme 0.0322  chi2/N 0.977  iter 27  2.3s
+  u79      recons (C++)  fond/pic 2.8e-05  somme 0.0333  chi2/N 0.978  iter 30  6.4s
+  u79      adjoint       fond/pic 3.8e-05  somme 0.0322  chi2/N 0.984  iter 31  6.3s
+
+Synthetique, 4 realisations par niveau, -s 4 -N, defauts actuels sauf compat_adjoint
+dico    prox           SNR  rel_err      e1      e2    fwhm
+starlet recons (C++)    10    0.827  0.0191  0.0346   0.134
+starlet recons (C++)    20    0.754  0.0163  0.0218   0.041
+starlet recons (C++)    30    0.320  0.0230  0.0055   0.053
+starlet recons (C++)    40    0.168  0.0046  0.0200   0.021
+starlet adjoint         10    0.339  0.0205  0.0592   0.083
+starlet adjoint         20    0.193  0.0164  0.0056   0.033
+starlet adjoint         30    0.147  0.0203  0.0068   0.052
+starlet adjoint         40    0.090  0.0044  0.0236   0.022
+u79     recons (C++)    10    0.338  0.0191  0.0302   0.127
+u79     recons (C++)    20    0.198  0.0129  0.0052   0.046
+u79     recons (C++)    30    0.141  0.0244  0.0020   0.061
+u79     recons (C++)    40    0.088  0.0078  0.0207   0.024
+u79     adjoint         10    0.376  0.0177  0.0298   0.156
+u79     adjoint         20    0.238  0.0106  0.0153   0.074
+u79     adjoint         30    0.177  0.0322  0.0032   0.074
+u79     adjoint         40    0.103  0.0092  0.0239   0.025
+
+Balayage de kappa, 4 realisations par niveau, -N (erreur relative / erreur de FWHM)
+dico    prox           kappa              10              20              30              40
+u79     recons (C++)       4   0.338 / 0.127   0.198 / 0.046   0.141 / 0.061   0.088 / 0.024
+u79     adjoint            2   0.339 / 0.117   0.208 / 0.054   0.159 / 0.071   0.094 / 0.025
+u79     adjoint            3   0.356 / 0.143   0.221 / 0.066   0.169 / 0.072   0.099 / 0.025
+u79     adjoint            4   0.376 / 0.156   0.238 / 0.074   0.177 / 0.074   0.103 / 0.025
+starlet adjoint            3   0.472 / 0.073   0.264 / 0.032   0.158 / 0.057   0.092 / 0.023
+starlet adjoint            4   0.339 / 0.083   0.193 / 0.033   0.147 / 0.052   0.090 / 0.022
+starlet adjoint            5   0.294 / 0.089   0.185 / 0.037   0.149 / 0.050   0.091 / 0.021

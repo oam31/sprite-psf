@@ -1,0 +1,35 @@
+SNR   10 dB  real 1/3  (92s)
+SNR   10 dB  real 2/3  (188s)
+SNR   10 dB  real 3/3  (287s)
+SNR   20 dB  real 1/3  (381s)
+SNR   20 dB  real 2/3  (466s)
+SNR   20 dB  real 3/3  (548s)
+SNR   30 dB  real 1/3  (625s)
+SNR   30 dB  real 2/3  (689s)
+SNR   30 dB  real 3/3  (762s)
+SNR   40 dB  real 1/3  (841s)
+SNR   40 dB  real 2/3  (903s)
+SNR   40 dB  real 3/3  (965s)
+
+transform=u79  n_real=3
+method              SNR     rel_err      e1_err      e2_err    fwhm_err
+shift_and_add        10      1.1313      0.0175      0.0822      0.6409
+shift_and_add        20      1.5358      0.0385      0.0251      0.7505
+shift_and_add        30      7.0198      0.0613      0.0047      0.0840
+shift_and_add        40      0.5511      0.0369      0.0381      0.0993
+sprite_cpp           10      0.4009      0.0147      0.0474      0.2054
+sprite_cpp           20      0.4511      0.0416      0.0508      0.3046
+sprite_cpp           30      0.3407      0.0184      0.0398      0.2375
+sprite_cpp           40      0.2523      0.0514      0.0231      0.0655
+sprite_fixed         10      0.3668      0.0173      0.0427      0.1263
+sprite_fixed         20      0.4130      0.0433      0.0349      0.2814
+sprite_fixed         30      0.2951      0.0099      0.0300      0.1164
+sprite_fixed         40      0.2358      0.0502      0.0221      0.0614
+sprite_fixed_noF     10      0.3648      0.0164      0.0421      0.1227
+sprite_fixed_noF     20      0.4112      0.0447      0.0337      0.2781
+sprite_fixed_noF     30      0.2859      0.0131      0.0296      0.0807
+sprite_fixed_noF     40      0.2352      0.0538      0.0200      0.0198
+sprite_fixed_noF_S   10      0.2956      0.0147      0.0293      0.0609
+sprite_fixed_noF_S   20      0.2048      0.0114      0.0080      0.0550
+sprite_fixed_noF_S   30      0.1260      0.0120      0.0033      0.0488
+sprite_fixed_noF_S   40      0.0780      0.0054      0.0165      0.0269

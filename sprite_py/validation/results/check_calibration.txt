@@ -1,0 +1,10 @@
+starlet, -N, kappa 4 sauf mention ; 2 réalisations par cas
+cas                                chi2 fit chi2 préd. rapport moitiés rel moitiés FWHM disp. flux erreur vraie rel FWHM vraie
+correct, 16 images, 30 dB             0.957      0.968   1.012      0.0221        0.25%       0.2%           0.0563      0.33%
+correct, 16 images, 20 dB             0.965      0.972   1.007      0.0613        0.41%       0.5%           0.1095      1.87%
+correct, 64 images, 30 dB             0.948      0.954   1.006      0.0088        0.03%       0.2%           0.0318      0.15%
+décalages du C++ (centroid)           1.907      2.223   1.169      0.2035        2.58%       6.1%           0.2235      8.99%
+flux ±20 % non estimés                1.481      2.038   1.364      0.1443        4.33%       9.5%           0.0697      0.13%
+flux ±20 % estimés (fit + 3)          0.960      0.971   1.012      0.0224        0.53%      10.5%           0.0570      0.31%
+régularisation faible (kappa 1)       0.864      1.016   1.176      0.0459        0.18%       0.2%           0.2442      0.29%
+régularisation forte (kappa 8)        0.972      0.982   1.011      0.0311        0.56%       0.2%           0.0832      0.43%

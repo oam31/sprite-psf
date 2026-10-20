@@ -1,0 +1,10 @@
+100 poses, décalages uniformes ±2,5 pixels, SNR 30 dB, R défocalisé de 0,3 onde ; erreur relative / FWHM par bande
+variante                     err. décal.                R                G                B
+r0 décalages vrais              0.000 px    0.055 / 0.2%    0.038 / 0.1%    0.036 / 0.2%   (46 s)
+r0 estimés (luminance)          0.125 px    0.116 / 1.4%    0.122 / 1.6%    0.306 / 16.9%   (101 s)
+r0 estimés + 1 réajustement     0.086 px    0.089 / 2.4%    0.094 / 3.1%    0.240 / 11.1%   (208 s)
+r0 estimés + 2 réajustements    0.082 px    0.084 / 3.2%    0.098 / 3.0%    0.232 / 8.9%   (365 s)
+r1 décalages vrais              0.000 px    0.052 / 0.1%    0.035 / 0.2%    0.052 / 0.2%   (411 s)
+r1 estimés (luminance)          0.067 px    0.118 / 2.4%    0.119 / 3.8%    0.136 / 12.2%   (465 s)
+r1 estimés + 1 réajustement     0.061 px    0.104 / 1.0%    0.123 / 4.3%    0.117 / 8.3%   (570 s)
+r1 estimés + 2 réajustements    0.058 px    0.098 / 0.6%    0.124 / 4.6%    0.109 / 6.6%   (725 s)

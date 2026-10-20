@@ -1,0 +1,6 @@
+test adjoint -6.661338147750939e-16
+cube_test.fits, starlet, -s 4 -N (somme de x0 : ~0,014)
+reconstruction (C++, defaut)       fond/pic 8.24e-03  somme 0.3615  chi2/N 1.420  iter 50
+adjoint exact                      fond/pic 2.39e-05  somme 0.0322  chi2/N 0.977  iter 27
+echelle grossiere penalisee        fond/pic 7.67e-03  somme 0.3433  chi2/N 1.378  iter 50
+7/9 (reference)                    fond/pic 2.81e-05  somme 0.0333  chi2/N 0.978  iter 30

@@ -1,0 +1,35 @@
+RGGB, poses ±1 pixel, 30 dB, starlet, kappa 4 sauf mention, -N ; une réalisation par cas
+chromatique : écart entre moitiés | erreur vraie, norme des décalages R-G et B-G (pixels HR)
+cas                                b    fit  préd.  rapp. moit. rel moit. FWHM  disp. vrai rel vrai FWHM
+50 poses, décalages connus         R  0.903  0.928  1.027     0.093       1.7%   0.5%    0.058      0.1%
+                                   G  0.920  0.929  1.010     0.014       0.0%   1.1%    0.036      0.0%
+                                   B  0.903  0.934  1.035     0.089       6.0%   0.7%    0.053      0.3%
+                                     chromatique R-G 0.037 | 0.011, B-G 0.028 | 0.006 ; erreur décalages 0.000 px ; 30 s ; alertes : 0
+50 poses, décalages estimés        R  0.942  0.979  1.040     0.155       5.9%   2.6%    0.086      1.4%
+                                   G  0.965  0.997  1.032     0.029       0.1%   7.2%    0.075      0.7%
+                                   B  1.016  1.105  1.088     0.115       2.2%   4.8%    0.151      5.5%
+                                     chromatique R-G 0.110 | 0.026, B-G 0.053 | 0.151 ; erreur décalages 0.060 px ; 66 s ; alertes : 3
+100 poses, décalages estimés       R  0.931  0.950  1.021     0.033       0.5%   2.2%    0.075      1.4%
+                                   G  0.948  0.955  1.008     0.015       0.0%   7.7%    0.062      0.4%
+                                   B  0.971  1.011  1.041     0.039       1.2%   4.0%    0.127      5.1%
+                                     chromatique R-G 0.016 | 0.016, B-G 0.012 | 0.146 ; erreur décalages 0.047 px ; 113 s ; alertes : 4
+16 poses, décalages connus         R  0.931  4.429  4.759     0.474       0.9%   0.6%    0.137      8.2%
+                                   G  0.911  0.974  1.069     0.151       0.4%   1.5%    0.065      0.0%
+                                   B  0.938  2.954  3.151     0.394      45.3%   2.9%    0.372     15.4%
+                                     chromatique R-G 0.323 | 0.066, B-G 0.179 | 0.294 ; erreur décalages 0.000 px ; 17 s ; alertes : 3
+16 poses, décalages estimés        R  0.936  2.798  2.991     0.437       1.0%   0.7%    0.224     16.0%
+                                   G  1.032  1.502  1.455     0.183       8.3%  15.2%    0.093      0.1%
+                                   B  0.980  3.552  3.622     0.328     127.7%   5.4%    0.344     28.3%
+                                     chromatique R-G 0.195 | 0.092, B-G 0.141 | 0.154 ; erreur décalages 0.073 px ; 18 s ; alertes : 7
+50 poses, sans réajustement        R  0.913  0.944  1.034     0.144       4.1%   1.9%    0.117      7.9%
+                                   G  1.112  1.207  1.086     0.080       1.4%  17.2%    0.093      1.2%
+                                   B  0.977  1.087  1.113     0.157       9.6%   4.2%    0.176      5.8%
+                                     chromatique R-G 0.108 | 0.084, B-G 0.118 | 0.204 ; erreur décalages 0.079 px ; 32 s ; alertes : 5
+50 poses, flux ±20 % non estimés   R  1.106  1.327  1.200     0.255       8.4%   8.5%    0.109      7.9%
+                                   G  1.357  1.619  1.193     0.070       1.1%  13.2%    0.140      4.0%
+                                   B  1.290  1.588  1.232     0.142       1.4%  11.7%    0.120      5.5%
+                                     chromatique R-G 0.048 | 0.028, B-G 0.058 | 0.151 ; erreur décalages 0.050 px ; 65 s ; alertes : 10
+50 poses, kappa 1                  R  0.829  1.038  1.253     0.173      10.9%   2.5%    0.302      1.4%
+                                   G  0.902  1.026  1.137     0.046       0.1%   6.8%    0.233      0.7%
+                                   B  0.903  1.179  1.306     0.119       1.4%   4.7%    0.315      5.4%
+                                     chromatique R-G 0.117 | 0.024, B-G 0.041 | 0.153 ; erreur décalages 0.061 px ; 65 s ; alertes : 6
