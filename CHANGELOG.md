@@ -4,7 +4,10 @@
 
 Non publié
 
-:   -   Documentation réorganisée : document technique dans
+:   -   Document technique découpé par thème dans `docs/technique/`
+        (méthode, implémentation, utilisation, études, mosaïque de
+        Bayer, données réelles, pistes, références).
+    -   Documentation réorganisée : document technique dans
         `docs/technique/`, publié avec l'API et les notes de version par
         Sphinx et MyST (`docs/`, extra `docs` de `sprite_py`) ; ce fichier
         remplace `HISTORIQUE.md`.
@@ -59,4 +62,4 @@ Non publié
         données de laboratoire utilisables directement.
     -   Corrections du recalage de la première estimation, de l'ouverture
         de flux et du critère d'arrêt : voir « Erreurs du C++ corrigées »
-        dans `docs/technique/reference.md`.
+        dans `docs/technique/implementation.md`.

@@ -23,7 +23,7 @@ ou, depuis une copie locale de ce dossier :
 python -m venv .venv && .venv/bin/pip install -e ".[test]"
 ```
 
-Dépendances : numpy, scipy, astropy, modopt, tifffile. Le code est typé et documenté (docstrings numpy en français) ; la documentation complète est dans `../docs/technique/reference.md`.
+Dépendances : numpy, scipy, astropy, modopt, tifffile. Le code est typé et documenté (docstrings numpy en français) ; la documentation complète est dans `../docs/technique/`.
 
 ## Utilisation
 
@@ -58,7 +58,7 @@ mesures.
 
 La documentation complète (méthode, dictionnaires, paramètres, réglage et
 validation sur données réelles, résultats) est dans
-[`../docs/technique/reference.md`](../docs/technique/reference.md).
+[`../docs/technique/`](../docs/technique/index.md).
 
 ## Organisation
 
