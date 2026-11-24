@@ -15,10 +15,10 @@ Article : F. M. Ngolè Mboula et al., A&A 575, A86 (2015),
 | Dossier | Rôle |
 | --- | --- |
 | [`sprite_py/`](sprite_py/) | le logiciel : paquet Python `sprite-psf`, tests, validations |
-| [`docs/`](docs/document_technique.md) | document technique : méthode, paramètres, réglage, résultats |
+| [`docs/`](docs/technique/reference.md) | document technique : méthode, paramètres, réglage, résultats ; publié avec l'API et les notes de version (Sphinx, MyST) |
 | [`reference/`](reference/) | oracle des tests : C++ d'origine recompilé et ses sorties de référence |
 | [`sprite_c/`](sprite_c/) | code C++ SPRITE v1.0 d'origine, non modifié |
-| [`HISTORIQUE.md`](HISTORIQUE.md) | évolutions traitées, par version |
+| [`CHANGELOG.md`](CHANGELOG.md) | ce qui change d'une version à l'autre |
 | [`LICENCE.md`](LICENCE.md) | licences : C++ sous CeCILL v2.0, Python sous CeCILL v2.1 ; références de la publication et du code C++ |
 
 Installation directe depuis GitHub (le paquet est dans le sous-dossier `sprite_py`) :

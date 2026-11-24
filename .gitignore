@@ -10,3 +10,6 @@ reference/dump_ref
 
 # article (droits arXiv, non redistribué)
 *.pdf
+# documentation construite et API générée
+docs/_build/
+docs/api/

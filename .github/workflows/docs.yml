@@ -1,0 +1,51 @@
+name: Documentation
+
+# Construit la documentation (documents techniques MyST, notes de version,
+# API autoapi) et la publie sur GitHub Pages à chaque push sur main.
+# Nécessite d'avoir activé, une seule fois, dans
+# Settings > Pages > Source : "GitHub Actions" pour ce dépôt.
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Installer le paquet et les dépendances de la documentation
+        run: |
+          pip install --upgrade pip
+          pip install "./sprite_py[docs]"
+
+      - name: Construire la documentation
+        run: |
+          cd docs
+          make html
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs/_build/html
+
+  deploy:
+    needs: build
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

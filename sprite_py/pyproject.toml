@@ -20,6 +20,8 @@ dependencies = [
 [project.optional-dependencies]
 test = ["pytest>=7", "pytest-cov>=4"]
 plot = ["matplotlib>=3.7"]
+# Documentation : `make html` dans ../docs (Sphinx, MyST, API autoapi).
+docs = ["sphinx>=7", "sphinx-rtd-theme", "sphinx-autoapi", "myst-parser"]
 
 [project.scripts]
 sprite-psf = "sprite.cli:main"
